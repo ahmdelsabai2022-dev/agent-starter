@@ -5,7 +5,7 @@ import { AIChatAgent, type OnChatMessageOptions } from "@cloudflare/ai-chat";
 import {
   convertToModelMessages,
   pruneMessages,
-  stepCountIs,
+  stepCountIS,
   streamText,
   tool
 } from "ai";
